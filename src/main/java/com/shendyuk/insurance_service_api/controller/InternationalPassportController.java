@@ -1,5 +1,6 @@
 package com.shendyuk.insurance_service_api.controller;
 
+import com.citymanagement.api.dto.PersonResponseDTO;
 import com.shendyuk.insurance_service_api.service.InternationalPassportService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
