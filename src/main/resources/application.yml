@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: insurance_service_api
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: postgresql://127.0.0.1:5432/postgres
+    username: postgres
+    password: postgre
+  jpa:
+    hibernate:
+      ddl-auto: none
+  profiles:
+    active: feign
+
+#spring.application.name=insurance_service_api
+#spring.datasource.driver-class-name=org.postgresql.Driver
+#spring.datasource.url=jdbc:postgresql://127.0.0.1:5432/postgres
+#spring.jpa.hibernate.ddl-auto=none
+#spring.datasource.username=postgres
+#spring.datasource.password=postgre
+#spring.profiles.active=feign
